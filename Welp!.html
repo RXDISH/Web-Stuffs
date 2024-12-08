@@ -11,39 +11,26 @@
             <label><i>(Can be a first, last, or nickname!)</i></label><br><br>
            
             <label for="name"> Item reviewed:</label>
-            <input type="text" id="item" name="item" required><br><br>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+            <input type="text" id="item" name="item" required><br>
             <label><i>(A film, book, etc)</i></label><br><br>
+
             
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required><br><br>
-            
-            <label for="attending">Are you coming?:</label>
-            <input type="radio" id="yes" name="attending" value="yes" required>
+            <label for="attending">Would you read / watch / etc again?:</label>
+            <input type="radio" id="yes" name="attending" value="yes">
             <label for="yes">Yes</label> <!--adds a label to first selecion-->
-            <input type="radio" id="no" name="attending" value="no" required>
+            <input type="radio" id="no" name="attending" value="no">
             <label for="no">No</label><br><br><!--adds a label to second selection-->
-            <input type="radio" id="no" name="attending" value="maybe" required>
+            <input type="radio" id="no" name="attending" value="maybe">
             <label for="maybe">Maybe</label><br><br><!--adds a label to third selection-->
 
-            <label for="guests">Number of Guests:</label>
-            <input type="number" min="1" max="6" id="guests" name="guests" required>
-            <label for="amount"><i>(Maximum amount of 6)</i><br><br></label>
+            <label for="guests">Rating:</label>
+            <input type="number" min="1" max="5" id="guests" name="guests" required>
+            <label for="amount"><i>(Out of 5 stars)</i><br><br></label>
 
-            <label for="diet">Dietary Restrictions:</label>
-            <input type="checkbox" id="diet" name="diet" value="vegetarian">
-            <label for="vegetarian">Vegetarian</label>
-            <input type="checkbox" id="diet" name="diet" value="vegan">
-            <label for="vegan">Vegan</label>
-            <input type="checkbox" id="diet" name="diet" value="gluten">
-            <label for="gluten">Gluten-Free</label>
-            <input type="checkbox" id="diet" name="diet" value="other">
-            <label for="other">Other</label><br><br>
+            <label for="data-entry">Add a comment:</label>
+            <textarea id="data-entry" rows="7" cols="42"  placeholder="Write Here!"></textarea>
+            <label><i>(No more than 250 characters)</i></label><br><br>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
             <input type="submit" value="Submit">
         </form>
     </body>
