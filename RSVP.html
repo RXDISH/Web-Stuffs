@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RSVP</title>
+    </head>
+    <body>
+        <h1> Guests to RSVP</h1>
+        <form action="RSVP.php" method="post">
+            <label for="name"> First Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+           
+            <label for="name"> Last Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+            
+            <label for="attending">Are you coming?:</label>
+            <input type="radio" id="yes" name="attending" value="yes" required>
+            <label for="yes">Yes</label> <!--adds a label to first selecion-->
+            <input type="radio" id="no" name="attending" value="no" required>
+            <label for="no">No</label><br><br><!--adds a label to second selection-->
+            <input type="radio" id="no" name="attending" value="maybe" required>
+            <label for="maybe">Maybe</label><br><br><!--adds a label to third selection-->
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" min="1" max="6" id="guests" name="guests" required>
+            <label for="amount"><i>(Maximum amount of 6)</i><br><br></label>
+
+            <label for="diet">Dietary Restrictions:</label>
+            <input type="checkbox" id="diet" name="diet" value="vegetarian">
+            <label for="vegetarian">Vegetarian</label>
+            <input type="checkbox" id="diet" name="diet" value="vegan">
+            <label for="vegan">Vegan</label>
+            <input type="checkbox" id="diet" name="diet" value="gluten">
+            <label for="gluten">Gluten-Free</label>
+            <input type="checkbox" id="diet" name="diet" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
