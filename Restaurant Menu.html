@@ -70,7 +70,7 @@
     </header>
 
     <main>
-        <h2 id="menu">Menu</h2>
+        <h2 id="menu"><u>Menu</u></h2>
         <section>
             <h3>Appetizers</h3>
                 <h4>Garlic Bread - £5.00</h4>
@@ -186,23 +186,23 @@
                       </figure>
         </section>
         <main>
-            <h2 id="order-form">Order Here!</h2>
+            <h2 id="order-form"><u>Order Here!</u></h2>
         </main>
         <section>
             <body>
                 <form>
                     <h3>How many starters would you like?</h3>
                     
-                        <input type="checkbox" id="starters" name="garlic_bread" value="garlic_bread">
+                        <input type="checkbox" id="garlic_bread" name="garlic_bread" value="garlic_bread">
                         <label for="garlic_bread">Garlic Bread</label>
                     
-                        <input type="checkbox" id="starters" name="bruschetta" value="bruschetta">
+                        <input type="checkbox" id="bruschetta" name="bruschetta" value="bruschetta">
                         <label for="bruschetta">Bruschetta</label>
 
-                        <input type="checkbox" id="starters" name="calamari" value="calamari">
+                        <input type="checkbox" id="calamari" name="calamari" value="calamari">
                         <label for="calamari">Calamari</label><br><br>
                    
-                        <input type="checkbox" id="starters" name="caprese_salad" value="caprese_salad">
+                        <input type="checkbox" id="caprese_salad" name="caprese_salad" value="caprese_salad">
                         <label for="caprese_salad">Caprese Salad</label> <br><br>
 
                     <h3>How many mains would you like?</h3>
@@ -221,30 +221,41 @@
 
                     <h3>How many drinks would you like?</h3>
                    
-                    <input type="checkbox" id="drinks" name="garlic_bread" value="garlic_bread">
-                    <label for="garlic_bread">Garlic Bread</label>
+                        <input type="checkbox" id="water" name="water" value="water">
+                        <label for="water">Water</label>
                 
-                    <input type="checkbox" id="drinks" name="bruschetta" value="bruschetta">
-                    <label for="bruschetta">Bruschetta</label>
+                        <input type="checkbox" id="soda" name="soda" value="soda">
+                        <label for="soda">Soda</label>
 
-                    <input type="checkbox" id="drinks" name="calamari" value="calamari">
-                    <label for="calamari">Calamari</label><br><br>
+                        <input type="checkbox" id="wine" name="wine" value="wine">
+                        <label for="wine">Wine</label><br><br>
                
-                    <input type="checkbox" id="starters" name="caprese_salad" value="caprese_salad">
-                    <label for="caprese_salad">Caprese Salad</label> <br><br>
+                        <input type="checkbox" id="coffee" name="coffee" value="coffee">
+                        <label for="coffee">Coffee</label> <br><br>
 
                     <h3>How many desserts would you like?</h3>
-                    <label for="attending">Are you coming?:</label>
-                    <input type="radio" id="yes" name="attending" value="yes" required>
-                    <label for="yes">Yes</label> <!--adds a label to first selecion-->
-                    <input type="radio" id="no" name="attending" value="no" required>
-                    <label for="no">No</label><br><br><!--adds a label to second selection-->
-                    <input type="radio" id="no" name="attending" value="maybe" required>
-                    <label for="maybe">Maybe</label><br><br><!--adds a label to third selection-->
-        
+                    
+                        <input type="radio" id="tiramisu" name="tiramisu" value="tiramisu">
+                        <label for="tiramisu">Tiramisu</label>
+                        
+                        <input type="radio" id="cheesecake" name="cheesecake" value="cheesecake">
+                        <label for="cheesecake">Cheesecake</label><br><br>
+                        
+                        <input type="radio" id="chocolate_cake" name="chocolate_cake" value="chocolate_cake">
+                        <label for="chocolate_cake">Chocolate Cake</label><br><br>
 
+                        <input type="radio" id="ice_cream" name="ice_cream" value="ice_cream">
+                        <label for="ice_cream">Ice Cream</label><br><br>
 
-                
-                
-
+                    <h3>Any special requests?</h3>
+                        <textarea id="data-entry" rows="7" cols="42"  placeholder="Enter your request here!"></textarea><br><br>
+                        
+                    <input type="submit" value="Submit">
+                </form>      
         </section>
+    </main>
+    <footer>
+        <p>♡ Made with love by RXDISH ♡</p>
+    </footer>
+    </body>
+</html>
