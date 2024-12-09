@@ -191,23 +191,59 @@
         <section>
             <body>
                 <form>
-
+                    <h3>How many starters would you like?</h3>
                     
-                <h3>How many mains would you like?</h3>
-                
-                <label for="spaghetti_carbonara">Spaghetti Carbonara</label>
-                <input type="number" min="0" id="spaghetti_carbonara" name="spaghetti_carbonara"> <br><br>
-                
-                <label for="chicken_parmesan">Chicken Parmesan</label>
-                <input type="number" min="0" id="chicken_parmesan" name="chicken_parmesan"> <br><br>
-                
-                <label for="lasagna">Lasagna</label>
-                <input type="number" min="0" id="lasagna" name="lasagna"> <br><br>
-                
-                <label for="vegetable_stir_fry">Vegetable Stir Fry</label>
-                <input type="number" min="0" id="vegetable_stir_fry" name="vegetable_stir_fry"> <br><br>
+                        <input type="checkbox" id="starters" name="garlic_bread" value="garlic_bread">
+                        <label for="garlic_bread">Garlic Bread</label>
+                    
+                        <input type="checkbox" id="starters" name="bruschetta" value="bruschetta">
+                        <label for="bruschetta">Bruschetta</label>
 
-                <h3>How many mains would you like?</h3>
+                        <input type="checkbox" id="starters" name="calamari" value="calamari">
+                        <label for="calamari">Calamari</label><br><br>
+                   
+                        <input type="checkbox" id="starters" name="caprese_salad" value="caprese_salad">
+                        <label for="caprese_salad">Caprese Salad</label> <br><br>
+
+                    <h3>How many mains would you like?</h3>
+                
+                         <label for="spaghetti_carbonara">Spaghetti Carbonara</label>
+                         <input type="number" min="0" id="mains" name="spaghetti_carbonara"> <br><br>
+                
+                        <label for="chicken_parmesan">Chicken Parmesan</label>
+                        <input type="number" min="0" id="mains" name="chicken_parmesan"> <br><br>
+                
+                        <label for="lasagna">Lasagna</label>
+                        <input type="number" min="0" id="mains" name="lasagna"> <br><br>
+                
+                        <label for="vegetable_stir_fry">Vegetable Stir Fry</label>
+                        <input type="number" min="0" id="mains" name="vegetable_stir_fry"> <br><br>
+
+                    <h3>How many drinks would you like?</h3>
+                   
+                    <input type="checkbox" id="drinks" name="garlic_bread" value="garlic_bread">
+                    <label for="garlic_bread">Garlic Bread</label>
+                
+                    <input type="checkbox" id="drinks" name="bruschetta" value="bruschetta">
+                    <label for="bruschetta">Bruschetta</label>
+
+                    <input type="checkbox" id="drinks" name="calamari" value="calamari">
+                    <label for="calamari">Calamari</label><br><br>
+               
+                    <input type="checkbox" id="starters" name="caprese_salad" value="caprese_salad">
+                    <label for="caprese_salad">Caprese Salad</label> <br><br>
+
+                    <h3>How many desserts would you like?</h3>
+                    <label for="attending">Are you coming?:</label>
+                    <input type="radio" id="yes" name="attending" value="yes" required>
+                    <label for="yes">Yes</label> <!--adds a label to first selecion-->
+                    <input type="radio" id="no" name="attending" value="no" required>
+                    <label for="no">No</label><br><br><!--adds a label to second selection-->
+                    <input type="radio" id="no" name="attending" value="maybe" required>
+                    <label for="maybe">Maybe</label><br><br><!--adds a label to third selection-->
+        
+
+
                 
                 
 
